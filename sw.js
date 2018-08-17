@@ -9,6 +9,7 @@ const cache_items = [
         "./js/main.js",
         "./js/restaurant_info.js",
         "./img/"
+        "./manifest.json"
       ]
 
 
