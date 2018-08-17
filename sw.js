@@ -8,7 +8,7 @@ const cache_items = [
         "./js/dbhelper.js",
         "./js/main.js",
         "./js/restaurant_info.js",
-        "./img/"
+        "./img/",
         "./manifest.json"
       ]
 
