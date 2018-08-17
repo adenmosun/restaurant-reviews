@@ -17,13 +17,13 @@
 <body>
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1 role="banner"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
 
 
-  <main id="maincontent">
+  <main id="maincontent" role="main">
     <section id="map-container" aria-labelledby="aria-map">
       <div id="map"></div>
       <label id="aria-map" class="aria-label">Map of restaurant locations</label>
@@ -39,15 +39,15 @@
 
 
 
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-labelledby="aria-neighborhoods-filter">
-          <option value="all">All Neighborhoods</option>
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-labelledby="aria-neighborhoods-filter" role="list">
+          <option value="all" role="option">All Neighborhoods</option>
           <label id="aria-neighborhoods-filter" class="aria-label">Filter by Neighbourhood</label>
         </select>
 
 
 
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-labelledby="aria-cuisines-filter">
-          <option value="all">All Cuisines</option>
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-labelledby="aria-cuisines-filter" role="list">
+          <option value="all" role="option">All Cuisines</option>
           <label id="aria-cuisines-filter" class="aria-label"> Filter by Cuisines</label>
         </select>
       </div>
